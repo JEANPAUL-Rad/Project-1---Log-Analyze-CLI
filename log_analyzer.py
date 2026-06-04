@@ -1,12 +1,11 @@
 import argparse
 
-# Create argument parser
 parser = argparse.ArgumentParser(description="Log Analyzer")
 
-# Accept log file path
 parser.add_argument("-file", required=True, help="Path to log file")
 
-# Read arguments
 args = parser.parse_args()
 
-print("Selected file:", args.file)
+with open(args.file, "r") as file:
+    for number, line in enumerate(file, start=1):
+        print(f"Line {number}: {line.strip()}")
