@@ -1,3 +1,26 @@
+
 2024-01-15 10:03:22 ERROR Database timeout
 2024-01-15 10:04:01 INFO Server started
-2024-01-15 10:05:15 WARNING High memory usage
+2024-01-15 10:05:44 WARNING High memory usage detected
+2024-01-15 10:07:44 ERROR Database timeout
+2024-01-15 10:09:10 INFO Request handled successfully
+2024-01-15 10:10:33 ERROR Auth failed
+2024-01-15 10:12:01 INFO Cache warmed
+2024-01-15 10:13:05 WARNING Slow query detected
+2024-01-15 10:15:01 ERROR Database timeout
+2024-01-15 10:16:50 INFO Health check passed
+2024-01-15 10:17:22 ERROR Auth failed
+2024-01-15 10:18:00 WARNING Disk usage above 80%
+2024-01-15 10:19:44 ERROR Database timeout
+2024-01-15 10:20:11 INFO Scheduled job completed
+2024-01-15 10:21:30 ERROR Database timeout
+{"timestamp": "2024-01-15 10:22:01", "level": "INFO", "message": "Service initialised"}
+{"timestamp": "2024-01-15 10:23:22", "level": "ERROR", "message": "Database timeout"}
+{"timestamp": "2024-01-15 10:24:45", "level": "WARNING", "message": "Retry attempt 1"}
+{"timestamp": "2024-01-15 10:25:10", "level": "ERROR", "message": "Auth failed"}
+{"timestamp": "2024-01-15 10:26:00", "level": "INFO", "message": "Reconnected to DB"}
+{"timestamp": "2024-01-15 10:27:33", "level": "ERROR", "message": "Database timeout"}
+{"timestamp": "2024-01-15 10:28:14", "level": "WARNING", "message": "High memory usage detected"}
+{"timestamp": "2024-01-15 10:29:05", "level": "ERROR", "message": "Auth failed"}
+{"timestamp": "2024-01-15 10:30:50", "level": "INFO", "message": "Health check passed"}
+{"timestamp": "2024-01-15 10:31:22", "level": "ERROR", "message": "Database timeout"}
